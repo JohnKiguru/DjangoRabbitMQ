@@ -3,8 +3,8 @@ A simpleproject where quotes created at the Quotes project are passed as message
 
 The Home project is used to demonstarate how to use the two APIs in a single web page.
 
-### Running the project...
-1. ####The Quotes project
+## Running the project...
+####The Quotes project
    Cd into Quotes
    
    Run python manage.py makemigrations
@@ -16,9 +16,9 @@ The Home project is used to demonstarate how to use the two APIs in a single web
    Run python consumer.py
    
   
-2. ###The Likes project
+###The Likes project
 
-    Cd into Likes
+   Cd into Likes
    
    Run python manage.py makemigrations
    
@@ -28,7 +28,7 @@ The Home project is used to demonstarate how to use the two APIs in a single web
    
    Run python consumer.py
    
-3.Communication
+###Communication
   Make sure you have RabbitMQ and pika installed.
   
   Start the server by running `sudo service rabbitmq-server start` if on linux
@@ -39,7 +39,7 @@ The Home project is used to demonstarate how to use the two APIs in a single web
   
   
    
- 4. ###The Home project
+ ###The Home project
 
      Run python manage.py makemigrations
    
